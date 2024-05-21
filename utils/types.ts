@@ -1,5 +1,4 @@
-// mobility data types 
-
+// app data types
 
 export interface MobilityData {
     mobilityIndex: number;
@@ -12,6 +11,18 @@ export interface MobilityData {
     medication: string;
     activity: string;
     fallRisk: string;
+  }
+
+  export interface AnalyticsData {
+    distance: number;
+    time: number;
+    cadence: number;
+    sway: number;
+    swing: number;
+    extension: number;
+    pressure: number;
+    stance: number;
+    walkSpeed: number;
   }
   
   export interface User {

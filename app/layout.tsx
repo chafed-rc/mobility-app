@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
-import Header from '@/components/header'; 
+import Header from '@/components/ui/header'; 
 import { User } from '@/utils/types'; 
-import BottomNavbar from '@/components/Navbar';
+import BottomNavbar from '@/components/ui/Navbar';
 
 interface LayoutProps {
   user: User;
